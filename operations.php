@@ -5,7 +5,6 @@ class operations{
 
 	public function  __construct($a){
 		$this->categoryId = $a;		
-
 	}
 	public function create($dbArr){
 		$dbaseObj = new dbase($this->categoryId,'create');
