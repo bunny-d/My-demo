@@ -24,5 +24,9 @@ class operations{
 		$dbaseObj = new dbase($this->categoryId,'edit');
 		$dbaseArr = $dbaseObj->action($dbArr);
         }
+
+	public function change(){
+		echo "in master branch";
+	}
 }
 ?>
