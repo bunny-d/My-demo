@@ -25,6 +25,7 @@ class operations{
 		$dbaseArr = $dbaseObj->action($dbArr);
         }
 	public function change(){
+		echo "error";
 	}
 }
 ?>
